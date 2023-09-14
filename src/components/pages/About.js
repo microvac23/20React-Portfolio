@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 style={{textAlign:'center'}}>About Me</h1>
       <img style={{
         maxWidth: 200,
       }} alt='selfie' src='./images/20230221_224237.jpg'></img>

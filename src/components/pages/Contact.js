@@ -21,14 +21,17 @@ export default function Contact() {
   
   const handleFormSubmit = () => {
     if(formName === '') {
+      setUserMessageColor('red')
       setUserMessage('Your name is missing')
       setTimeout(() => { setUserMessage('') }, 5000);
       return
     } if(formEmail === '') {
+      setUserMessageColor('red')
       setUserMessage('Your email is missing')
       setTimeout(() => { setUserMessage('') }, 5000);
       return
     } if(formMessage === '') {
+      setUserMessageColor('red')
       setUserMessage('Your message is missing')
       setTimeout(() => { setUserMessage('') }, 5000);
       return
@@ -57,7 +60,7 @@ export default function Contact() {
     <textarea name="message" type="text" value={formMessage} placeholder="Message" onChange={handleChange}></textarea>
   </div >
   <div style={{textAlign:'center'}}>
-  {userMessage && <div style={{userMessageColor}}>{userMessage}</div>}  
+  {userMessage && <div style={{color: userMessageColor}}>{userMessage}</div>}  
   <input type="submit" value="Submit" id="input-submit" ></input>
   </div>
 </form>

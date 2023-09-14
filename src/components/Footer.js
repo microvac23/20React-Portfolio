@@ -18,6 +18,10 @@ function Header() {
       <a href="https://github.com/microvac23">
       <img src='./Images/git.webp' alt='GitHub logo' style={imageStyle} ></img>
       </a>
+      <a href="https://www.instagram.com/shortybear248/">
+      <img src='./Images/ig.png' alt='Instagram logo' style={imageStyle} ></img>
+      </a>
+
       <a href='https://www.linkedin.com/in/amadeus-machuca-7a6389259/'>
       <img src='./Images/linked.webp' alt='LinkedIn logo' style={imageStyle} ></img>
       </a>

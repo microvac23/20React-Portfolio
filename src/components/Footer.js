@@ -8,9 +8,9 @@ function Header() {
         transform: 'translate(-50%, 0)'
     }
     const imageStyle = {
-        maxHeight: 64,
-        maxWidth: 64,
-        margin: 20
+        maxHeight: 60,
+        maxWidth: 60,
+        margin: 1
     }
 
   return (

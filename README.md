@@ -28,4 +28,4 @@ Deployed Application: [here](https://microvac23.github.io/20React-Portfolio/)
 
 Screenshot:
 
-![alt text](./public/Images/portfolio.png)
+![alt text](./public/Images/port.png)

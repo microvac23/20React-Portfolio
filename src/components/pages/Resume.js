@@ -1,8 +1,12 @@
 import React from 'react';
 
 export default function Resume() {
+  const resumeStyle = {
+    backgroundColor: '#fc8799'
+  }
+
   return (
-    <div>
+    <div style={resumeStyle}>
       <h1 style={{textAlign:'center'}}>Resume</h1>
       <p>Download/view my resume <a href="https://docs.google.com/document/d/1B_JWc9koqLGh2-qwXI4NP7Vq0AQrOKfHIWx4Osf9k_w/edit?usp=sharing">here</a>!</p>
       

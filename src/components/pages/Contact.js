@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 
 export default function Contact() {
+  const contactStyle = {
+    backgroundColor: '#fc8799'
+  }
+
   const [formName, setFormName] = useState('')
   const [formEmail, setFormEmail] = useState('')
   const [formMessage, setFormMessage] = useState('')
@@ -47,7 +51,7 @@ export default function Contact() {
   }
 
   return (
-    <div>
+    <div style={contactStyle}>
     <h1 style={{textAlign:'center'}}>Contact Me</h1>
 <form  onSubmit={handleFormSubmit}>
   <div style={{textAlign:'center'}}>

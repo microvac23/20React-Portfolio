@@ -1,8 +1,11 @@
 import React from 'react';
 
 export default function About() {
+  const aboutStyle = {
+    backgroundColor: '#fc8799'
+  }
   return (
-    <div>
+    <div style={aboutStyle}>
       <h1 style={{textAlign:'center'}}>About Me</h1>
       <img style={{
         maxWidth: 200,

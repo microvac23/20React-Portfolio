@@ -6,8 +6,12 @@ export default function Project() {
     maxWidth: 300
   }
 
+  const projectsStyle = {
+    backgroundColor: '#fc8799'
+  }
+
   return (
-    <div>
+    <div style={projectsStyle}>
       <h1 style={{textAlign:'center'}}>Projects Page</h1>
       <div className='row '>
       <ul className='col-lg-4 col-md-6 col-sm-6'>
